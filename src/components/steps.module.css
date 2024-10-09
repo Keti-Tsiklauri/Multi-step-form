@@ -1,0 +1,51 @@
+.main {
+  margin-top: 20px; /* Example margin */
+}
+
+.container {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.rounded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px; /* Example width */
+  height: 30px; /* Example height */
+  border-radius: 50%; /* Makes the element round */
+  border: 2px solid seashell; /* Example border */
+
+  color: white; /* Example text color */
+}
+
+.rounded p {
+  color: aliceblue;
+}
+
+p {
+  margin: 5px 0; /* Example paragraph margin */
+}
+
+.text p:last-child {
+  padding-top: 0;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.text p:first-child {
+  font-size: 14px;
+}
+
+.text p {
+  margin-left: 10px;
+}
+
+.active .rounded {
+  background-color: hsl(206, 94%, 87%);
+}
+.active .rounded p {
+  color: black;
+}

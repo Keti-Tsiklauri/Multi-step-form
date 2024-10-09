@@ -1,0 +1,63 @@
+body {
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h2 {
+  color: hsl(213, 96%, 18%);
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.p {
+  color: hsl(231, 11%, 63%);
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(217, 100%, 97%);
+}
+.p1 {
+  color: hsl(213, 96%, 18%);
+}
+.p3 {
+  color: hsl(213, 96%, 18%);
+}
+.p2 {
+  cursor: pointer;
+  text-decoration: underline;
+  color: hsl(243, 100%, 62%);
+}
+.additionalPlan {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(217, 100%, 97%);
+}
+.sum {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.sum :last-child {
+  color: hsl(243, 100%, 62%);
+}
+.largeDiv {
+  padding: 15px;
+  background-color: hsl(217, 100%, 97%);
+}
+
+.buttonContainer {
+  position: fixed;
+
+  bottom: 110px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: hsl(243, 100%, 62%);
+  border: 0;
+  border-radius: 6px;
+  color: aliceblue;
+}

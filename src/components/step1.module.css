@@ -1,0 +1,25 @@
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly with space between */
+  height: 100%; /* Full height of parent container */
+}
+
+.box1 {
+  width: 30%; /* Set width for box1 */
+  height: 100%; /* Full height of parent container */
+  margin-bottom: 10px; /* Bottom margin */
+  background-image: url(images/bg-sidebar-desktop.svg); /* Background image */
+  background-size: cover; /* Cover the entire container */
+  background-repeat: no-repeat; /* No repeat for background */
+  background-position: center; /* Center the background */
+  margin-left: 2%;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding-bottom: 30%;
+}
+
+.box2 {
+  width: 50%; /* Set width for box2 */
+  margin-right: 10%; /* Margin from right side */
+  margin-bottom: 10px; /* Bottom margin */
+}
